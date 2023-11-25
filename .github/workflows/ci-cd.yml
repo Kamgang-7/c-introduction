@@ -3,12 +3,12 @@ name: CI/CDl.
 on:
   push:
     branches:
-      - winnie
+      - main
       - develop 
       
   pull_request:
     branches:
-      -winnie
+      -main
 
 jobs:
   tests:
