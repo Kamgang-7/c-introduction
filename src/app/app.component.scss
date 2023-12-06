@@ -1,0 +1,57 @@
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  
+    .profile {
+      text-align: center;
+  
+      img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 10px;
+      }
+  
+      .name {
+        font-size: 32px;
+        color: #333;
+        margin-bottom: 5px;
+      }
+  
+      .title {
+        font-size: 18px;
+        color: #666;
+        margin-bottom: 20px;
+      }
+    }
+  
+    .about {
+      margin-bottom: 20px;
+    }
+  
+    .contact {
+
+  
+      .section-title {
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 10px;
+      }
+  
+      .contact-list {
+        list-style-type: none;
+        padding: 0;
+  
+        li {
+          font-size: 16px;
+          color: #333;
+          margin-bottom: 5px;
+        }
+      }
+    }
+  }

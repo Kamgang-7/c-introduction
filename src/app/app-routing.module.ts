@@ -4,8 +4,8 @@ import { DocsComponent } from './docs/docs.component';
 
 const routes: Routes = [
 
-  {  path:'docs', component:DocsComponent},
-  {  path:'docs',redirectTo:"docs",pathMatch:'full'}
+  // {  path:'docs', component:DocsComponent},
+  // {  path:'docs',redirectTo:"docs",pathMatch:'full'}
 ];
 
 @NgModule({
