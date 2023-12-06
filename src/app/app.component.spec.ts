@@ -17,13 +17,13 @@ describe('AppComponent', () => {
   it(`should have as title 'ci-cd-introduction'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('ci-cd-introduction');
+    expect(app.title).toEqual('winnie');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('ci-cd-introduction app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('winnie app is running!');
   });
 });
